@@ -1,0 +1,36 @@
+.cus-header {
+  background: #7619E4 !important;
+
+  &__text {
+    color: #ffffff !important;
+  }
+}
+.cus-footer {
+  background: #eeeeee !important;
+
+  &__text {
+    color: #666666 !important;
+  }
+}
+
+.cus-header,
+.cus-footer {
+
+  &__text {
+    font-size: 14px;
+    line-height: 30px;
+  }
+
+  &__img {
+    margin-right: 8px;
+  }
+}
+.pb-0 {
+  padding-bottom: 0 !important;
+}
+.cus-body p, .cus-body h4 {
+  color: #666666 !important;
+}
+.cus-body p.small {
+  font-size: 14px;
+}
